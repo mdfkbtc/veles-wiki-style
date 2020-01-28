@@ -1,31 +1,31 @@
 {
-	"name": "Bootstrap",
-	"author": "Francesco Siddi",
-	"url": "https://www.mediawiki.org/wiki/Skin:Bootstrap",
-	"descriptionmsg": "Bootstrap 4 based documentation-oriented skin.",
-	"namemsg": "bootstrap",
+	"name": "Veles",
+	"author": "Francesco Siddi, The Veles Core developers",
+	"url": "https://www.mediawiki.org/wiki/Skin:Veles",
+	"descriptionmsg": "Veles 4 based documentation-oriented skin.",
+	"namemsg": "veles",
 	"license-name": "GPL-2.0+",
 	"type": "skin",
 	"ValidSkinNames": {
-		"bootstrap": "Bootstrap"
+		"veles": "Veles"
 	},
 	"AutoloadClasses": {
-		"SkinBootstrap": "Bootstrap.skin.php",
-		"BootstrapTemplate": "BootstrapTemplate.php",
+		"SkinVeles": "Veles.skin.php",
+		"VelesTemplate": "VelesTemplate.php",
 		"DeToc": "DeToc.php"
 	},
 	"MessagesDirs": {
-		"Bootstrap": "i18n"
+		"Veles": "i18n"
 	},
 	"ResourceModules": {
-		"skins.bootstrap": {
+		"skins.veles": {
 				"styles": {
 						"resources/vendor/bootstrap.min.css": { "media": "screen" },
 						"resources/screen.css": { "media": "screen" },
 						"resources/print.css": { "media": "print" }
 				}
 		},
-		"skins.bootstrap.js": {
+		"skins.veles.js": {
 			"scripts": [
 				"resources/vendor/bootstrap.bundle.min.js"
 			],
@@ -35,6 +35,6 @@
 	},
 	"ResourceFileModulePaths": {
 		"localBasePath": "",
-		"remoteSkinPath": "Bootstrap"
+		"remoteSkinPath": "Veles"
 	}
 }

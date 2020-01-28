@@ -1,18 +1,18 @@
 <?php
 /**
- * Skin file for skin Bootstrap.
+ * Skin file for skin Veles.
  *
  * @file
  * @ingroup Skins
  */
 
 /**
- * SkinTemplate class for Bootstrap skin
+ * SkinTemplate class for Veles skin
  * @ingroup Skins
  */
-class SkinBootstrap extends SkinTemplate {
-	var $skinname = 'bootstrap', $stylename = 'Bootstrap',
-		$template = 'BootstrapTemplate', $useHeadElement = true;
+class SkinVeles extends SkinTemplate {
+	var $skinname = 'veles', $stylename = 'Veles',
+		$template = 'VelesTemplate', $useHeadElement = true;
 
 	/**
 	 * This function adds JavaScript via ResourceLoader
@@ -26,8 +26,8 @@ class SkinBootstrap extends SkinTemplate {
 	public function initPage( OutputPage $out ) {
 		parent::initPage( $out );
 		$out->addMeta( 'viewport', 'width=device-width, initial-scale=1, shrink-to-fit=no' );
-		$out->addModules( 'skins.bootstrap.js' );
-		/* 'skins.bootstrap.js' is the name you used in your skin.json file */
+		$out->addModules( 'skins.veles.js' );
+		/* 'skins.veles.js' is the name you used in your skin.json file */
 	}
 
 	/**
@@ -40,8 +40,8 @@ class SkinBootstrap extends SkinTemplate {
 		$out->addModuleStyles( array(
 			/* mediawiki.skinning.interface is the default interface theme*/
 			// 'mediawiki.skinning.interface',
-			/* 'skins.bootstrap' is the name you used in your skin.json file */
-			'skins.bootstrap'
+			/* 'skins.veles' is the name you used in your skin.json file */
+			'skins.veles'
 		) );
 	}
 }

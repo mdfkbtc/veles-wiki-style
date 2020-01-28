@@ -4,7 +4,7 @@
  *
  * @ingroup Skins
  */
-class BootstrapTemplate extends BaseTemplate {
+class VelesTemplate extends BaseTemplate {
 	/**
 	 * Outputs the entire contents of the page
 	 */
