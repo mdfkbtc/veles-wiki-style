@@ -22,7 +22,8 @@
 				"styles": {
 						"resources/vendor/bootstrap.min.css": { "media": "screen" },
 						"resources/screen.css": { "media": "screen" },
-						"resources/print.css": { "media": "print" }
+						"resources/print.css": { "media": "print" },
+						"resources/theme.css": { "media": "screen" }
 				}
 		},
 		"skins.veles.js": {

@@ -1,0 +1,58 @@
+/*
+ Copyright (c) 2019-2020 The Veles Core developers
+ Distributed under the MIT software license, see the accompanying
+ file COPYING or http://www.opensource.org/licenses/mit-license.php
+*/
+
+/* TODO: veles theme */
+
+/* Fonts, body style */
+@import url(https://fonts.googleapis.com/css?family=Jura:300,400,600,700);
+@import url(https://fonts.googleapis.com/css?family=Inconsolata:300,400,600,700);
+*{
+    font-family:Jura;
+}
+body{
+    background:url(https://veles.network/images/bg-pattern.png);
+    font-weight:400;
+    font-size:16px;
+    line-height:1.625;
+    color: #dadedf;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale
+}
+
+/* Headings */
+h1,h2,h3,h4,h5,h6{
+    color:#fff;
+    font-weight:700;
+    margin:0;
+    line-height:1.2
+}
+
+
+/* Scrollbar */
+body::-webkit-scrollbar{
+    width:10px;
+    background-color:#000
+}
+body::-webkit-scrollbar-track{
+    -webkit-box-shadow:inset 0 0 6px rgba(0,0,0,.3)
+}
+body::-webkit-scrollbar-thumb{
+    background-color:#262626;
+    outline:1px solid #708090;
+    border-left:3px solid #e4b99cbb
+}
+body::-webkit-scrollbar-thumb:hover{
+    border-color:#f19b7e;
+    box-shadow:0 0 30px #f19b7e,0 0 50px #f19b7e
+}
+a{
+    color:#e4b99c;
+    text-decoration:none
+}
+a:hover{
+    color:#f19b7e;
+    text-decoration:underline
+}
